@@ -280,6 +280,9 @@ controller:
     ## Set the port where the readiness endpoint is exposed.
     port: 8081
 
+  ## Enable collection of latency metrics for upstreams. Requires enable-prometheus-metrics
+  enableLatencyMetrics: true
+
 rbac:
   ## Configures RBAC.
   create: true
