@@ -281,7 +281,7 @@ controller:
     port: 8081
 
   ## Enable collection of latency metrics for upstreams. Requires enable-prometheus-metrics
-  enableLatencyMetrics: true
+  enableLatencyMetrics: false
 
 rbac:
   ## Configures RBAC.
