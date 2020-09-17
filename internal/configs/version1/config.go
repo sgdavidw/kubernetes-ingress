@@ -190,6 +190,7 @@ type MainConfig struct {
 	AppProtectCookieSeed               string
 	AppProtectCPUThresholds            string
 	AppProtectPhysicalMemoryThresholds string
+	AppProtectUserSigs                 []string
 	InternalRouteServer                bool
 	InternalRouteServerName            string
 }
